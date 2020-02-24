@@ -1,0 +1,1 @@
+package ucmoudles.systemback.config.ribbon;import com.netflix.loadbalancer.IPing;import com.netflix.loadbalancer.Server;/** * @author 9527 * @ClassName CustomIPing * @Date 2020/1/19 * @Description TODO * @Version 1.0 */public class CustomIPing implements IPing {    @Override    public boolean isAlive(Server server) {        return true;    }}
